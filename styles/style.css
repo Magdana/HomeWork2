@@ -35,6 +35,7 @@ h1 {
   margin-left: 41px;
   display: flex;
   align-items: center;
+  color: #666666;
 }
 .top__nav__list--item img {
   width: 33px;
@@ -56,6 +57,7 @@ h1 {
 }
 .main__nav__list--items {
   padding: 23px 50px;
+  color: #000000;
 }
 .main__nav__list--items:hover {
   background-color: #f27a1a;
@@ -70,13 +72,11 @@ h1 {
 .hero__image {
   width: 100%;
 }
-
-.section__two {
-  margin-top: 27px;
-}
 h2 {
   height: 45px;
+  padding-top: 27px;
   padding-left: 100px;
+  margin-bottom: 25px;
   font-family: "Roboto", sans-serif;
   font-size: 38px;
   font-weight: 500;
@@ -135,6 +135,7 @@ h2 {
 }
 .countries td {
   padding-left: 30px;
+  padding-top: 10px;
   height: 45px;
   width: 500px;
   border: 1px solid;
@@ -185,11 +186,17 @@ p {
   margin-right: 32px;
   margin-top: 29px;
 }
+section {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .section__tree__img {
   padding-left: 117px;
   width: 1205px;
   height: 684px;
 }
+
 .faq {
   padding-left: 117px;
   padding-top: 50px;
@@ -199,7 +206,6 @@ p {
   padding-left: 119px;
 }
 .sec__five__img {
-  width: 100%;
   margin-top: 53px;
 }
 footer {
@@ -207,6 +213,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 60px;
 }
 .copyright {
   height: 21px;
